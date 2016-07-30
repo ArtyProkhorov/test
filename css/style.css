@@ -1,0 +1,302 @@
+/*@font-face {
+  font-family: 'tahoma';
+  src: url('../fonts/tahoma.eot');
+  src: url('../fonts/tahoma.eot?#iefix') format('embedded-opentype'),
+     url('../fonts/tahoma.woff') format('woff'),
+     url('../fonts/tahoma.ttf') format('truetype');
+  font-style: normal;
+  font-weight: normal;
+}*/
+
+* {
+   color:#ffffff;
+}
+body {
+  background: #999;
+  background: url("../img/main_bk.jpg") no-repeat;
+  background-attachment: fixed;
+	width: 100%;
+	height: 100%; 
+  padding-top: 85px;
+  -moz-background-size: 100%; /* Firefox 3.6+ */
+  -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+  -o-background-size: 100%; /* Opera 9.6+ */
+  background-size: 100%;
+  /*margin: 0px;*/
+  font-family: arial, verdana, sans-serif;
+}
+
+
+/*
+            HEADER
+*/
+#header {
+  height: 86px;
+  width: 100%;
+  left: 0;
+  top: 0;
+  background-color: black;
+  -moz-opacity: 0.8;
+  -khtml-opacity: 0.8;  
+  opacity: 0.8;
+  -moz-border-radius: 5px; 
+  -webkit-border-radius: 5px; 
+  -khtml-border-radius: 5px; 
+  border-radius: 5px;
+  position: fixed; 
+  z-index:3;
+}
+#header_wrapper {
+  width: 1170px;
+}
+#logo_wrapper {
+  width: 220px;  
+  margin: 0;
+  padding: 0;
+  text-align: right;
+}
+#menu_wrapper {
+  width: 730px;
+  margin: 0;
+  padding: 0;
+}
+#profile_wrapper {
+  width: 220px;
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  margin-top: 30px;
+  display: block;
+
+}
+.main_menu {
+
+}
+.main_menu ul li,
+.profile_menu ul li {
+  display: inline-block;
+  transition: 0.5s;
+}
+.main_menu ul li a,
+.profile_menu ul li a {
+  font-family: tahoma, arial, verdana, sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  color: #aab9cc;
+}
+.main_menu li {
+  padding-top: 40px;
+  padding-left: 30px;
+}
+.profile_menu li {
+  padding-top: 33px;
+  padding-left: 20px;
+}
+
+.main_menu li.active a,
+.main_menu li:hover a,
+.profile_menu li.active a,
+.profile_menu li:hover a {
+  color: #fff;
+}
+ #name {
+  color: #fff;
+  text-decoration: underline;
+}
+/*CONTENT*/
+#content {
+  height: 495px;
+}
+#setting {
+  vertical-align: bottom;
+}
+/*GAME #№№№№*/
+#game_N {
+  height: 130px;
+}
+#game_txt {
+    padding-top: 33px;
+}
+
+/* TIMER */
+#timer_wrap {
+  height: 220px;
+  position: relative;
+}
+.timer {
+  padding-top: 16px;
+}
+.section_timer {
+  width: 254px;
+  float:left;
+  margin-right: 6px;
+}  
+#section_txt  {
+  width: 254px;
+  font-size: 1.2em;
+}
+#hour,#min,#sec {
+  height: 160px;
+  width: 263px;
+  background: url("../img/timer2.png") no-repeat;
+  margin-top: 12px;
+}  
+#hour0, #min0, #sec0,
+  #hour1, #min1, #sec1{
+  font-size:7.5em;
+  font-weight:bold;
+  float:left;
+  padding-left: 35px; 
+  padding-top: 10px;
+  position:relative;
+
+}
+#hour1, #min1, #sec1 {
+  margin-left:26px;
+}
+
+/* PROGRESS-BAR */
+#progressBar_wrapper {
+  height: 145px;
+  position: relative;
+}
+.progressBar {
+  margin-top: 5px;
+}
+h3 {
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  font-family: sans-serif;
+}
+h4 {
+  font-size: 12px;
+  font-weight: normal;
+  text-align: center;
+}
+#center {
+  text-align: center;
+}
+/* MEDALS */
+#medals {
+  height: 294px;
+}
+.wrapper_img {
+  padding-top: 10px;
+}
+.wrapper_caption {
+  padding-top: 10px;
+}
+p.medal_description {
+  font-size: 11px;
+  font-family: sans-serif;
+}
+.wrapper_button {
+  padding-top: 14px;
+  padding-left: 30px;
+  height: 29px;
+}
+button.btn {
+  outline: 0;
+  position: relative;
+  display: inline-block;
+  font: bold 12px Arial;
+  color: #fff;
+  text-decoration: none;
+  cursor: pointer;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 225px;
+  height: 29px;
+  border: none;  
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  border-radius: 5px;
+  background: #b41010 -webkit-repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 3px, transparent 4px, transparent 8px); 
+  background: #b41010 -moz-repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 3px, transparent 4px, transparent 8px); 
+  background: #b41010 -o-repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 3px, transparent 4px, transparent 8px);  
+  background: rgba(180, 16, 16, 1) repeating-linear-gradient(-45deg, rgba(0, 0, 0, 0.05) 0px, rgba(0, 0, 0, 0.05) 3px, transparent 4px, transparent 8px); 
+  -webkit-box-shadow:
+    inset -21px -1px rgba(0,0,0,.3),
+    inset 21px 21px rgba(255,255,255,.3);
+  -moz-box-shadow: 
+    inset -1px -1px rgba(0,0,0,.3),
+    inset 1px 1px rgba(255,255,255,.3); 
+  box-shadow: 
+    inset -1px -1px rgba(0,0,0,.3),
+    inset 1px 1px rgba(255,255,255,.3); 
+    text-align: center;
+}
+button.btn:active {
+  animation: nope 1s ease-in-out infinite;
+}
+@keyframes nope {
+   0% {
+        transform: scale(1) rotate(1deg);
+    }
+    50% {
+        transform: scale(1) rotate(-1deg);
+    }
+    100% {
+        transform: scale(1) rotate(1deg);
+    }
+}
+button.btn:active {
+ opacity: 0.8;
+} 
+
+/*FOOTER*/
+#footer {
+  height: 76px;
+}
+p.footer_txt {
+  font-size: 10px;
+  text-align: center;
+}
+
+/*SCROLL DOWN*/
+.scroll_to_bottom {
+  position: fixed;
+  left: 50%;
+  margin-left: -16px;
+  bottom: 42px;
+  -webkit-animation: bounce 2s infinite 2s;
+  animation: bounce 2s infinite 2s;
+}
+.scroll_to_bottom span {
+  height: 13px;
+  width: 30px;
+  display: block;
+  background: url("../img/scroll_to_bottom.png") no-repeat;
+  z-index:2;
+}
+@keyframes bounce {
+  0%,
+  100%,
+  20%,
+  50%,
+  80% {
+    -webkit-transform: translateY(0);
+    -ms-transform: translateY(0);
+    transform: translateY(0);
+  }
+  40% {
+    -webkit-transform: translateY(-10px);
+    -ms-transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
+  60% {
+    -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-5px);
+    transform: translateY(-5px);
+  }
+}
+input {
+  color: #000;
+}
+button {
+  color: #000;
+}

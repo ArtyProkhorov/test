@@ -1,0 +1,124 @@
+/* line 17, ../sass/progress-bar.scss */
+.border-progress-bar {
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 12px 12px 9px 10px;
+  width: 780px;
+  background-color: #1d1d1d;
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJvYmplY3RCb3VuZGluZ0JveCIgeDE9IjAuNSIgeTE9IjAuMCIgeDI9IjAuNSIgeTI9IjEuMCI+PHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzAwMDAwMCIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iIzMzMzMzMyIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxMDAlIiBoZWlnaHQ9IjEwMCUiIGZpbGw9InVybCgjZ3JhZCkiIC8+PC9zdmc+IA==');
+  background-size: 100%;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #000000), color-stop(100%, #333333));
+  background-image: -moz-linear-gradient(top, #000000 0%, #333333 100%);
+  background-image: -webkit-linear-gradient(top, #000000 0%, #333333 100%);
+  background-image: linear-gradient(to bottom, #000000 0%, #333333 100%);
+  -moz-border-radius: 25px;
+  -webkit-border-radius: 25px;
+  border-radius: 25px;
+  border: 1px solid #000;
+  -moz-box-shadow: 1px 1px rgba(51, 51, 51, 0.8);
+  -webkit-box-shadow: 1px 1px rgba(51, 51, 51, 0.8);
+  box-shadow: 1px 1px rgba(51, 51, 51, 0.8);
+}
+/* line 26, ../sass/progress-bar.scss */
+.border-progress-bar .progress-bar {
+  background-color: #7f7b78;
+  padding: 7px 1px 7px 7px;
+  background-image: url("../img/bk-timer2.png");
+  -moz-border-radius: 20px;
+  -webkit-border-radius: 20px;
+  border-radius: 20px;
+}
+/* line 31, ../sass/progress-bar.scss */
+.border-progress-bar .progress-bar .bar {
+  height: 37px;
+  display: block;
+  background-color: #ff3300;
+  background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  -moz-background-size: 10px 10px;
+  -o-background-size: 10px 10px;
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+  -moz-border-radius: 3px 10px 10px 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 10px 10px 3px;
+  -moz-box-shadow: inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset -1000px 0px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset -1000px 0px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset -1000px 0px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+}
+/* line 59, ../sass/progress-bar.scss */
+.border-progress-bar .progress-bar .value {
+  height: 37px;
+  text-indent: 10em;
+  white-space: nowrap;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  color: #f8f2f2;
+  display: block;
+  position: relative;
+  background-color: #ff7f00;
+  background-image: -webkit-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -moz-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -ms-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: -o-linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-image: linear-gradient(135deg, rgba(255, 255, 255, 0.15) 25%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, rgba(0, 0, 0, 0) 75%, rgba(0, 0, 0, 0));
+  /* background-image: repeating-linear-gradient(-45deg, rgba(255, 255, 255, .1), rgba(255, 255, 255, .1) 5px, transparent 5px, transparent 10px);*/
+  -moz-background-size: 10px 10px;
+  -o-background-size: 10px 10px;
+  -webkit-background-size: 10px 10px;
+  background-size: 10px 10px;
+  -moz-border-radius: 3px 10px 10px 3px;
+  -webkit-border-radius: 3px;
+  border-radius: 3px 10px 10px 3px;
+  -moz-box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.6), inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.6), inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.6), inset 1px -1px rgba(102, 51, 0, 0.25), inset -1px 1px rgba(102, 51, 0, 0.5), inset 0px -17px 4px 0px rgba(0, 0, 0, 0.3), inset 0px 5px 2px 0px rgba(255, 255, 255, 0.7);
+  -moz-transition-property: width;
+  -o-transition-property: width;
+  -webkit-transition-property: width;
+  transition-property: width;
+  -moz-transition-duration: 0.5s;
+  -o-transition-duration: 0.5s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
+  -moz-animation: animate-stripes 3s linear infinite;
+  -webkit-animation: animate-stripes 3s linear infinite;
+  animation: animate-stripes 3s linear infinite;
+}
+
+@-webkit-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+@-moz-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+@-ms-keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}
+@keyframes animate-stripes {
+  0% {
+    background-position: 0 0;
+  }
+  100% {
+    background-position: 60px 0;
+  }
+}

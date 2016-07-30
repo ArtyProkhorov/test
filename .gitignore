@@ -1,0 +1,13 @@
+#folder temp of data
+temp/
+
+#folder for COMPASS SASS
+.sass-cache/
+sass/
+/*.rb
+
+#folder CSS default
+libs/*.css
+
+#folder IMAGE
+img/
